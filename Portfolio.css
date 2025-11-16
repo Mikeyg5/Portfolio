@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+}
+#top-nav {
+  border: 1.7px solid silver;
+  border-radius: 0 0 10px 10px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 45px;
+  color: white;
+  background: linear-gradient(
+  30deg, #3a5f8a 5%, #a8c4e8 10%, #6f8fb8 30%, #8ea7c9 50%, #6f8fb8 70%, #a8c4e8 80%, #3a5f8a 95%);
+  font-family: courier new;
+  font-size: 20px;
+);
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding-top: 25px;
+}
+#section-holder{
+  display: flex;
+  flex-direction: column;
+}
+#welcome-section {
+  height: 750px;
+  width: 100%;
+  border: 2px solid black;
+  margin-top: 45px;
+  background: linear-gradient(
+  30deg,
+  #b0b0b0 5%,
+  #e6e6e6 10%,
+  #cccccc 30%,
+  #dddddd 50%,
+  #cccccc 70%,
+  #e6e6e6 80%,
+  #b0b0b0 95%
+);
+  padding-top: 105px;
+}
+#project-section {
+  height: 720px;
+  border: 2px solid black;
+  background: linear-gradient(
+  30deg, #3a5f8a 5%, #a8c4e8 10%, #6f8fb8 30%, #8ea7c9 50%, #6f8fb8 70%, #a8c4e8 80%, #3a5f8a 95%
+);
+}
+#link-container{
+  display:grid ;
+  row-gap: 45px;
+  justify-content: space-between;
+  grid-template-columns:50% 50%;
+  text-align: center;
+  padding-top: 60px;
+  height:500px;
+}
+#credentials-container{
+  display: grid;
+  row-gap: 45px;
+  justify-content: space-between;
+  grid-template-columns:50% 50%;
+  text-align: center;
+}
+#skill-section{
+  border: 2px solid black;
+  height: 720px;
+  width: 100%;
+  background: linear-gradient(
+  30deg,
+  #b0b0b0 5%,
+  #e6e6e6 10%,
+  #cccccc 30%,
+  #dddddd 50%,
+  #cccccc 70%,
+  #e6e6e6 80%,
+  #b0b0b0 95%
+);
+
+}
+#contact-section {
+  height: 720px;
+  width: 100%;
+  background: linear-gradient(
+  30deg, #3a5f8a 5%, #a8c4e8 10%, #6f8fb8 30%, #8ea7c9 50%, #6f8fb8 70%, #a8c4e8 80%, #3a5f8a 95%
+);
+}
+#credentials-section {
+  height: 720px;
+  width: 100%;
+  background: linear-gradient(
+  30deg,
+  #b0b0b0 5%,
+  #e6e6e6 10%,
+  #cccccc 30%,
+  #dddddd 50%,
+  #cccccc 70%,
+  #e6e6e6 80%,
+  #b0b0b0 95%
+);
+
+}
+#footnote{
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#intro{
+  width: 80%;
+  margin-left: 52px;
+}
+#credentials-container {
+  height: 500px;
+}
+.centered {
+  width: auto;
+  text-align: center;
+}
+
+.dancing-script-1 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+a:visited {
+  color: white;
+}
+
+
+  
+}
